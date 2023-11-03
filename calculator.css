@@ -1,0 +1,52 @@
+.calculator{
+    margin-top: 100px;
+    width: 400px;
+    height: 526px;
+    border: solid 1px;
+    margin-left: 520px;
+    background: black;
+}
+#screen{
+    width: 320px;
+    height: 45px;
+    border: solid 1px;
+    margin-top: 20px;
+    margin-left: 40px;
+    pointer-events: none;
+    background-color: rgb(200, 197, 197);
+}
+.calchead{
+    margin-left: 86px;
+    color: grey;
+}
+.buttons{
+    width: 10px;
+    display: inline;
+    
+    
+}
+.btn{
+    
+    padding: 11px;
+    height: 42px;
+    width: 66px;
+    margin: 5px;
+    background-color: grey;
+    
+}
+.rows{
+    padding-left: 38px;
+    padding-top: 20px;
+    
+}
+.buttons :hover{
+    color: red;
+}
+.head{
+    width: 100%;
+    height: 20px;
+    background-color: black;
+    position: sticky;
+}
+
+    
